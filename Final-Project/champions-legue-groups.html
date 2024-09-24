@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/champions-legue-groups.css">
+</head>
+<script src="JS/champions-legue-groups.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="IMG/logo3.png" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html"><button type="button"
+                                class="btn btn-outline-light">الصفحة الرئيسية</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="news.html"><button type="button"
+                                class="btn btn-outline-light">الأخبار</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html"><button type="button"
+                                class="btn btn-outline-light">المنتجات</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"><button type="button" class="btn btn-outline-light">معلومات
+                                عنا</button></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn btn-outline-light">الدوريات</button>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="premier-legue.html">الدوري الإنجليزي الممتاز</a></li>
+                            <li><a class="dropdown-item" href="champions-legue.html">دوري أبطال أوروبا</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="البحث" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">بحث</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="right-top">
+        <img id="champions-photo1" onclick="champions1()" src="IMG/Champions-legue2.png" alt="Champions-legue">
+        <b id="champions-text1" onclick="champions2()">دوري ابطال اوروبا</b>
+    </div>
+
+    <div id="table1">
+        <b class="table-name">مجموعه أ</b>
+
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/bayern.png">
+            <b class="team7-name">بايرن ميونخ</b>
+            <b class="play">1</b>
+            <b class="plusminus">4:3</b>
+            <b class="diff">1</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/Copenhagen .png">
+            <b class="team7-name">كوبنهاجن</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:2</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/Galatasaray .png">
+            <b class="team7-name">جالاتا سراي</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:2</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/united.png">
+            <b class="team7-name">مانشستر يونايتد</b>
+            <b class="play">1</b>
+            <b class="plusminus">3:4</b>
+            <b class="diff">-1</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+    </div>
+
+     <div id="table2">
+        <b class="table-name">مجموعه ب</b>
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/arsenal.png">
+            <b class="team7-name">ارسنال</b>
+            <b class="play">1</b>
+            <b class="plusminus">4:0</b>
+            <b class="diff">4</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/lens.png">
+            <b class="team7-name">لانس</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/sevilla.png">
+            <b class="team7-name">اشبيليه</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/psv.png">
+            <b class="team7-name">ايندهوفن</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:4</b>
+            <b class="diff">-4</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+    </div>
+
+    <div id="table3">
+        <b class="table-name">مجموعه ج</b>
+
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/napoli.png">
+            <b class="team7-name">نابولى</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:1</b>
+            <b class="diff">1</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/madrid.png">
+            <b class="team7-name">ريال مدريد</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:0</b>
+            <b class="diff">1</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/braga.png">
+            <b class="team7-name">سبورتينج براغا</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:2</b>
+            <b class="diff">-1</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/UnionBerlin.png">
+            <b class="team7-name">يونيون برلين</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:1</b>
+            <b class="diff">-1</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+    <div id="table4">
+        <b class="table-name">مجموعه د</b>
+
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/salzburg.png">
+            <b class="team7-name">ريدبل سالزبورغ</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:0</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/inter.png">
+            <b class="team7-name">انتر ميلان</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/sosiedad.png">
+            <b class="team7-name">ريال سوسيداد</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/benfica.png">
+            <b class="team7-name">بنفيكا</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:2</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+    <div id="table5">
+        <b class="table-name">مجموعه ه</b>
+
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/feyenoord.png">
+            <b class="team7-name">فاينورد</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:0</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/atliteco.png">
+            <b class="team7-name">اتلتيكو مدريد</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/lazio.png">
+            <b class="team7-name">لاتسيو</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:1</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/celtic.png">
+            <b class="team7-name">سيلتيك</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:2</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+    <div id="table6">
+        <b class="table-name">مجموعه و</b>
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/paris.png">
+            <b class="team7-name">باريس</b>
+            <b class="play">1</b>
+            <b class="plusminus">2:0</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/newcastleunited.png">
+            <b class="team7-name">نيوكاسل</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:0</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/milan.png">
+            <b class="team7-name">ميلان</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:0</b>
+            <b class="diff">0</b>
+            <b class="points">1</b>
+            <b class="win">0</b>
+            <b class="all">1</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/dortmund.png">
+            <b class="team7-name">بروسيا دورتموند</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:2</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+    <div id="table7">
+        <b class="table-name">مجموعه ز</b>
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/Leipzig .png">
+            <b class="team7-name">لايبزيج</b>
+            <b class="play">1</b>
+            <b class="plusminus">3:1</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/mancity.png">
+            <b class="team7-name">مانشستر سيتى</b>
+            <b class="play">1</b>
+            <b class="plusminus">3:1</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/RedStar.png">
+            <b class="team7-name">النجم الاحمر</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:3</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/youngboys.png">
+            <b class="team7-name">يونغ بويز</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:3</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+    <div id="table8">
+        <b class="table-name">مجموعه ح</b>
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <img class="team7-photo" src="IMG/barcelona.png">
+            <b class="team7-name">برشلونه</b>
+            <b class="play">1</b>
+            <b class="plusminus">5:0</b>
+            <b class="diff">5</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line3">
+            <img class="team7-photo" src="IMG/porto.png">
+            <b class="team7-name">بورتو</b>
+            <b class="play">1</b>
+            <b class="plusminus">3:1</b>
+            <b class="diff">2</b>
+            <b class="points">3</b>
+            <b class="win">1</b>
+            <b class="all">0</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <img class="team7-photo" src="IMG/shakhtar.png">
+            <b class="team7-name">شاختار</b>
+            <b class="play">1</b>
+            <b class="plusminus">1:3</b>
+            <b class="diff">-2</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+        <div class="line5">
+            <img class="team7-photo" src="IMG/Antwerp.png">
+            <b class="team7-name">رويال انتويرب</b>
+            <b class="play">1</b>
+            <b class="plusminus">0:5</b>
+            <b class="diff">-5</b>
+            <b class="points">0</b>
+            <b class="win">0</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+    </div> 
+
+</body>
+
+</html>

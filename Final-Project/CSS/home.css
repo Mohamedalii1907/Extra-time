@@ -1,0 +1,1978 @@
+/*PC*/
+@media all and (min-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        height: 160px;
+        width: 20%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #legues {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo1 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #champions-legue-photo1:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    #champions-legue-text1 {
+        position: absolute;
+        top: 58px;
+        right: 18%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #champions-legue-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+        }
+
+    #premier-legue-photo1 {
+        position: absolute;
+        top: 100px;
+        right: 4%;
+        width: 35px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #premier-legue-photo1:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #premier-legue-text1 {
+        position: absolute;
+        top: 103px;
+        right: 19%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #premier-legue-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+        }
+
+    .slide {
+        position: absolute;
+        top: 320px;
+        left: 5%;
+        height: 350px;
+        width: 20%;
+        border-radius: 20px;
+    }
+
+    .w-100 {
+        width: 15%;
+        height: 90%;
+        border-radius: 20px;
+
+    }
+
+    .d-md-block {
+        position: absolute;
+        top: 210px;
+        background: rgba(206, 201, 201, 0.664);
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+    }
+
+    .middle {
+        position: absolute;
+        top: 100px;
+        left: 30%;
+        height: 550px;
+        width: 42%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #matches {
+        position: absolute;
+        top: 15px;
+        right: 37%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo2 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #champions-legue-photo2:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #champions-legue-text2 {
+        position: absolute;
+        top: 58px;
+        right: 8%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #champions-legue-text2:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 110px;
+        right: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 110px;
+        right: 29%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 110px;
+        left: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 110px;
+        left: 33%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 112px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 170px;
+        right: 15.5%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 170px;
+        right: 29%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 170px;
+        left: 23.5%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 170px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 172px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 230px;
+        right: 13%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 230px;
+        right: 27.3%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 230px;
+        left: 24.2%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 230px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 232px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #premier-legue-photo2 {
+        position: absolute;
+        top: 280px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #premier-legue-photo2:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #premier-legue-text2 {
+        position: absolute;
+        top: 285px;
+        right: 9%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #premier-legue-text2:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #team7-name {
+        position: absolute;
+        top: 330px;
+        right: 10%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team7-photo {
+        position: absolute;
+        top: 330px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team8-name {
+        position: absolute;
+        top: 330px;
+        left: 23%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team8-photo {
+        position: absolute;
+        top: 330px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date4 {
+        position: absolute;
+        top: 332px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team9-name {
+        position: absolute;
+        top: 390px;
+        right: 10%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team9-photo {
+        position: absolute;
+        top: 390px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team10-name {
+        position: absolute;
+        top: 390px;
+        left: 23%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team10-photo {
+        position: absolute;
+        top: 390px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date5 {
+        position: absolute;
+        top: 392px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team11-name {
+        position: absolute;
+        top: 450px;
+        right: 19%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team11-photo {
+        position: absolute;
+        top: 450px;
+        right: 26.5%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team12-name {
+        position: absolute;
+        top: 450px;
+        left: 23%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team12-photo {
+        position: absolute;
+        top: 450px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date6 {
+        position: absolute;
+        top: 452px;
+        left: 47%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #see-more1 {
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    #see-more1:hover {
+        text-decoration: underline;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 100px;
+        right: 5%;
+        height: 330px;
+        width: 20%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #transfers {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #player1 {
+        position: absolute;
+        top: 65px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team1 {
+        position: absolute;
+        top: 65px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        top: 65px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team2 {
+        position: absolute;
+        top: 65px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player2 {
+        position: absolute;
+        top: 115px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team3 {
+        position: absolute;
+        top: 115px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow2 {
+        position: absolute;
+        top: 115px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team4 {
+        position: absolute;
+        top: 115px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player3 {
+        position: absolute;
+        top: 165px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team5 {
+        position: absolute;
+        top: 165px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow3 {
+        position: absolute;
+        top: 165px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team6 {
+        position: absolute;
+        top: 165px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player4 {
+        position: absolute;
+        top: 220px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team7 {
+        position: absolute;
+        top: 220px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow4 {
+        position: absolute;
+        top: 220px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team8 {
+        position: absolute;
+        top: 220px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player5 {
+        position: absolute;
+        top: 270px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team9 {
+        position: absolute;
+        top: 270px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow5 {
+        position: absolute;
+        top: 270px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team10 {
+        position: absolute;
+        top: 270px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .bottom-right {
+        position: absolute;
+        top: 470;
+        right: 5%;
+        height: 230px;
+        width: 20%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #advertise1 {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #advertise2 {
+        position: absolute;
+        top: 50px;
+        height: 170px;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        height: 160px;
+        width: 40%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #legues {
+        position: absolute;
+        top: 15px;
+        right: 3%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo1 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+    #champions-legue-photo1:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #champions-legue-text1 {
+        position: absolute;
+        top: 58px;
+        right: 13%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #champions-legue-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+        }
+
+    #premier-legue-photo1 {
+        position: absolute;
+        top: 100px;
+        right: 2%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #premier-legue-photo1:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #premier-legue-text1 {
+        position: absolute;
+        top: 106px;
+        right: 13%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #premier-legue-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+        }
+
+     .slide {
+        position: absolute;
+        top: 320px;
+        left: 10%;
+        height: 450px;
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .w-100 {
+        width: 20%;
+        height: 90%;
+        border-radius: 20px;
+
+    }
+
+    .d-md-block {
+        position: absolute;
+        top: 290px;
+        background: rgba(206, 201, 201, 0.664);
+        font-size: larger;
+        font-weight: 700;
+        color: black;
+    }
+
+    .middle {
+        position: absolute;
+        top: 100px;
+        right: 5%;
+        height: 550px;
+        width: 46%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #matches {
+        position: absolute;
+        top: 15px;
+        right: 37%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo2 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #champions-legue-photo2:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #champions-legue-text2 {
+        position: absolute;
+        top: 58px;
+        right: 11%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #champions-legue-text2:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 110px;
+        right: 18%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 110px;
+        right: 29%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 110px;
+        left: 17%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 110px;
+        left: 33%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 112px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 170px;
+        right: 13%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 170px;
+        right: 29%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 170px;
+        left: 21.8%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 170px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 172px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 230px;
+        right: 10%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 230px;
+        right: 27.3%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 230px;
+        left: 22.8%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 230px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 232px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #premier-legue-photo2 {
+        position: absolute;
+        top: 280px;
+        right: 2%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #premier-legue-photo2:hover{
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #premier-legue-text2 {
+        position: absolute;
+        top: 285px;
+        right: 12.5%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #premier-legue-text2:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    #team7-name {
+        position: absolute;
+        top: 330px;
+        right: 5%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team7-photo {
+        position: absolute;
+        top: 330px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team8-name {
+        position: absolute;
+        top: 330px;
+        left: 21%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team8-photo {
+        position: absolute;
+        top: 330px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date4 {
+        position: absolute;
+        top: 332px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team9-name {
+        position: absolute;
+        top: 390px;
+        right: 5%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team9-photo {
+        position: absolute;
+        top: 390px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team10-name {
+        position: absolute;
+        top: 390px;
+        left: 21%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team10-photo {
+        position: absolute;
+        top: 390px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date5 {
+        position: absolute;
+        top: 392px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team11-name {
+        position: absolute;
+        top: 450px;
+        right: 16%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team11-photo {
+        position: absolute;
+        top: 450px;
+        right: 26.5%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team12-name {
+        position: absolute;
+        top: 450px;
+        left: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team12-photo {
+        position: absolute;
+        top: 450px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date6 {
+        position: absolute;
+        top: 452px;
+        left: 45%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #see-more1 {
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    #see-more1:hover {
+        text-decoration: underline;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 690px;
+        right: 5%;
+        height: 330px;
+        width: 46%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #transfers {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #player1 {
+        position: absolute;
+        top: 65px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team1 {
+        position: absolute;
+        top: 65px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        top: 65px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team2 {
+        position: absolute;
+        top: 65px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player2 {
+        position: absolute;
+        top: 115px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team3 {
+        position: absolute;
+        top: 115px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow2 {
+        position: absolute;
+        top: 115px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team4 {
+        position: absolute;
+        top: 115px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player3 {
+        position: absolute;
+        top: 165px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team5 {
+        position: absolute;
+        top: 165px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow3 {
+        position: absolute;
+        top: 165px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team6 {
+        position: absolute;
+        top: 165px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player4 {
+        position: absolute;
+        top: 220px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team7 {
+        position: absolute;
+        top: 220px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow4 {
+        position: absolute;
+        top: 220px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team8 {
+        position: absolute;
+        top: 220px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player5 {
+        position: absolute;
+        top: 270px;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team9 {
+        position: absolute;
+        top: 270px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow5 {
+        position: absolute;
+        top: 270px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team10 {
+        position: absolute;
+        top: 270px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+ 
+    .bottom-right {
+        position: absolute;
+        top: 800px;
+        left: 5%;
+        height: 230px;
+        width: 30%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #advertise1 {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #advertise2 {
+        position: absolute;
+        top: 50px;
+        height: 170px;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 100px;
+        left: 5%;
+        height: 160px;
+        width: 40%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #legues {
+        position: absolute;
+        top: 15px;
+        right: 3%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo1 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    #champions-legue-text1 {
+        position: absolute;
+        top: 58px;
+        right: 14%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        cursor: pointer;
+    }
+
+    #champions-legue-text1:hover {
+        text-decoration: underline;
+    }
+
+    #premier-legue-photo1 {
+        position: absolute;
+        top: 100px;
+        right: 2%;
+        width: 40px;
+        height: 40px;
+    }
+
+    #premier-legue-text1 {
+        position: absolute;
+        top: 106px;
+        right: 14%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+     .slide {
+        position: absolute;
+        top: 320px;
+        left: 10%;
+        height: 450px;
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .w-100 {
+        width: 15%;
+        height: 90%;
+        border-radius: 20px;
+
+    }
+
+    .d-md-block {
+        position: absolute;
+        top: 270px;
+        background: rgba(206, 201, 201, 0.664);
+        font-size: larger;
+        font-weight: 600;
+        color: black;
+    }
+
+    .middle {
+        position: absolute;
+        top: 100px;
+        right: 5%;
+        height: 550px;
+        width: 46%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #matches {
+        position: absolute;
+        top: 15px;
+        right: 37%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #champions-legue-photo2 {
+        position: absolute;
+        top: 60px;
+        right: 0%;
+        width: 60px;
+        height: 30px;
+    }
+
+    #champions-legue-text2 {
+        position: absolute;
+        top: 58px;
+        right: 12%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 110px;
+        right: 18%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 110px;
+        right: 29%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 110px;
+        left: 15%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 110px;
+        left: 33%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 112px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 170px;
+        right: 11%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 170px;
+        right: 29%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 170px;
+        left: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 170px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 172px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 230px;
+        right: 8%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 230px;
+        right: 27.3%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 230px;
+        left: 21.2%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 230px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 232px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #premier-legue-photo2 {
+        position: absolute;
+        top: 280px;
+        right: 2%;
+        width: 40px;
+        height: 40px;
+    }
+
+    #premier-legue-text2 {
+        position: absolute;
+        top: 285px;
+        right: 12%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team7-name {
+        position: absolute;
+        top: 330px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team7-photo {
+        position: absolute;
+        top: 330px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team8-name {
+        position: absolute;
+        top: 330px;
+        left: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team8-photo {
+        position: absolute;
+        top: 330px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date4 {
+        position: absolute;
+        top: 332px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team9-name {
+        position: absolute;
+        top: 390px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team9-photo {
+        position: absolute;
+        top: 390px;
+        right: 27.8%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team10-name {
+        position: absolute;
+        top: 390px;
+        left: 21%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team10-photo {
+        position: absolute;
+        top: 390px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date5 {
+        position: absolute;
+        top: 392px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team11-name {
+        position: absolute;
+        top: 450px;
+        right: 16%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team11-photo {
+        position: absolute;
+        top: 450px;
+        right: 26.5%;
+        width: 50px;
+        height: 30px;
+    }
+
+    #team12-name {
+        position: absolute;
+        top: 450px;
+        left: 20%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+
+    #team12-photo {
+        position: absolute;
+        top: 450px;
+        left: 33.3%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #date6 {
+        position: absolute;
+        top: 452px;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #see-more1 {
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    #see-more1:hover {
+        text-decoration: underline;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 690px;
+        right: 5%;
+        height: 330px;
+        width: 46%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #transfers {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #player1 {
+        position: absolute;
+        top: 65px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team1 {
+        position: absolute;
+        top: 65px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow1 {
+        position: absolute;
+        top: 65px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team2 {
+        position: absolute;
+        top: 65px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player2 {
+        position: absolute;
+        top: 115px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team3 {
+        position: absolute;
+        top: 115px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow2 {
+        position: absolute;
+        top: 115px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team4 {
+        position: absolute;
+        top: 115px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player3 {
+        position: absolute;
+        top: 165px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team5 {
+        position: absolute;
+        top: 165px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow3 {
+        position: absolute;
+        top: 165px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team6 {
+        position: absolute;
+        top: 165px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player4 {
+        position: absolute;
+        top: 220px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team7 {
+        position: absolute;
+        top: 220px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow4 {
+        position: absolute;
+        top: 220px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team8 {
+        position: absolute;
+        top: 220px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #player5 {
+        position: absolute;
+        top: 270px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 400;
+    }
+
+    #transfer-team9 {
+        position: absolute;
+        top: 270px;
+        right: 34%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #arrow5 {
+        position: absolute;
+        top: 270px;
+        right: 48%;
+        width: 30px;
+    }
+
+    #transfer-team10 {
+        position: absolute;
+        top: 270px;
+        right: 60%;
+        width: 30px;
+        height: 30px;
+    }
+ 
+    .bottom-right {
+        position: absolute;
+        top: 800px;
+        left: 5%;
+        height: 230px;
+        width: 30%;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #advertise1 {
+        position: absolute;
+        top: 15px;
+        right: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    #advertise2 {
+        position: absolute;
+        top: 50px;
+        height: 170px;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+}

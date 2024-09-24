@@ -1,0 +1,242 @@
+/*PC*/
+@media all and (min-width:1500px){
+.section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#login-logo{
+    position: absolute;
+    top: 60px;
+    left: 44%;
+}
+#login-div{
+    position: absolute;
+    top: 180px;
+    left: 35%;
+    height: 250px;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.733);
+}
+#email-name{
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    color: white;
+    font-size:larger;
+}
+#email-name:hover{
+    text-shadow: 5px 5px 5px rgb(201, 195, 195);
+}
+#email-text{
+    position: absolute;
+    top: 55px;
+    right: 10%;
+    height: 40px;
+    width: 80%;
+    font-size:large;
+    border: none;
+}
+#email-text:hover{
+    box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+}
+#password-name{
+    position: absolute;
+    top: 105px;
+    right: 10%;
+    color: white;
+    font-size:larger;
+}
+#password-name:hover{
+    text-shadow: 5px 5px 5px rgb(201, 195, 195);
+}
+#password-text{
+    position: absolute;
+    top: 140px;
+    right: 10%;
+    height: 40px;
+    width: 80%;
+    font-size:large;
+    border: none;
+}
+#password-text:hover{
+    box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+}
+#button3{
+    position: absolute;
+    top: 200px;
+    left: 34%;
+    font-size:large;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+    background: none;
+}
+#button3:hover {
+    color: black;
+    background: rgb(255, 255, 255);
+}
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px){
+    .section {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    #login-logo{
+        position: absolute;
+        top: 60px;
+        left: 43%;
+    }
+    #login-div{
+        position: absolute;
+        top: 180px;
+        left: 34%;
+        height: 250px;
+        width: 32%;
+        background: rgba(0, 0, 0, 0.733);
+    }
+    #email-name{
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        color: white;
+        font-size:larger;
+    }
+    #email-name:hover{
+        text-shadow: 5px 5px 5px rgb(201, 195, 195);
+    }
+    #email-text{
+        position: absolute;
+        top: 55px;
+        right: 10%;
+        height: 40px;
+        width: 80%;
+        font-size:large;
+        border: none;
+    }
+    #email-text:hover{
+        box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+    }
+    #password-name{
+        position: absolute;
+        top: 105px;
+        right: 10%;
+        color: white;
+        font-size:larger;
+    }
+    #password-name:hover{
+        text-shadow: 5px 5px 5px rgb(201, 195, 195);
+    }
+    #password-text{
+        position: absolute;
+        top: 140px;
+        right: 10%;
+        height: 40px;
+        width: 80%;
+        font-size:large;
+        border: none;
+    }
+    #password-text:hover{
+        box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+    }
+    #button3{
+        position: absolute;
+        top: 200px;
+        left: 34%;
+        font-size:large;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: larger;
+        color: white;
+        background: none;
+    }
+    #button3:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px) {
+    .section {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    #login-logo{
+        position: absolute;
+        top: 60px;
+        left: 44%;
+    }
+    #login-div{
+        position: absolute;
+        top: 180px;
+        left: 34%;
+        height: 250px;
+        width: 37%;
+        background: rgba(0, 0, 0, 0.733);
+    }
+    #email-name{
+        position: absolute;
+        top: 20px;
+        right: 10%;
+        color: white;
+        font-size:larger;
+    }
+    #email-name:hover{
+        text-shadow: 5px 5px 5px rgb(201, 195, 195);
+    }
+    #email-text{
+        position: absolute;
+        top: 55px;
+        right: 10%;
+        height: 40px;
+        width: 80%;
+        font-size:large;
+        border: none;
+    }
+    #email-text:hover{
+        box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+    }
+    #password-name{
+        position: absolute;
+        top: 105px;
+        right: 10%;
+        color: white;
+        font-size:larger;
+    }
+    #password-name:hover{
+        text-shadow: 5px 5px 5px rgb(201, 195, 195);
+    }
+    #password-text{
+        position: absolute;
+        top: 140px;
+        right: 10%;
+        height: 40px;
+        width: 80%;
+        font-size:large;
+        border: none;
+    }
+    #password-text:hover{
+        box-shadow:2px 2px 2px 2px rgba(173, 14, 14, 0.753);
+    }
+    #button3{
+        position: absolute;
+        top: 200px;
+        left: 34%;
+        font-size:large;
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: larger;
+        color: white;
+        background: none;
+    }
+    #button3:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+}

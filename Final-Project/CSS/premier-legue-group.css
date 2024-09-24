@@ -1,0 +1,1271 @@
+/*PC*/
+@media all and (min-width:1500px){
+body {
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+#right-top {
+    position: absolute;
+    top: 90px;
+    width: 30%;
+    right: 5%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#premier-photo1 {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+#premier-photo1:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#premier-text1 {
+    position: absolute;
+    top: 55px;
+    right: 26%;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#premier-text1:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#table {
+    position: absolute;
+    top: 215px;
+    right: 5%;
+    width: 70%;
+    height: 1220px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+.table-name {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+.line1 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.play {
+    position: absolute;
+    top: 10px;
+    right: 30%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.plusminus {
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.diff {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.points {
+    position: absolute;
+    top: 10px;
+    right: 60%;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.win {
+    position: absolute;
+    top: 10px;
+    right: 70%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.all {
+    position: absolute;
+    top: 10px;
+    right: 80%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.lose {
+    position: absolute;
+    top: 10px;
+    right: 90%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.line2 {
+    position: absolute;
+    top: 105px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line2:hover {
+    background: rgb(0, 0, 0);
+}
+
+.order {
+    position: absolute;
+    top: 10px;
+    right: 1%;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.team7-photo {
+    position: absolute;
+    top: 10px;
+    right: 4%;
+    width: 35px;
+    height: 30px;
+}
+
+.team7-name {
+    position: absolute;
+    top: 10px;
+    right: 11%;
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.line3 {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line3:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line4 {
+    position: absolute;
+    top: 215px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line4:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line5 {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line5:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line6 {
+    position: absolute;
+    top: 325px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line6:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line7 {
+    position: absolute;
+    top: 380px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line7:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line8 {
+    position: absolute;
+    top: 435px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line8:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line9 {
+    position: absolute;
+    top: 490px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line9:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line10 {
+    position: absolute;
+    top: 545px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line10:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line11 {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line11:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line12 {
+    position: absolute;
+    top: 655px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line12:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line13 {
+    position: absolute;
+    top: 710px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line13:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line14 {
+    position: absolute;
+    top: 765px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line14:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line15 {
+    position: absolute;
+    top: 820px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line15:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line16 {
+    position: absolute;
+    top: 875px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line16:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line17 {
+    position: absolute;
+    top: 930px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line17:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line18 {
+    position: absolute;
+    top: 985px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line18:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line19 {
+    position: absolute;
+    top: 1040px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line19:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line20 {
+    position: absolute;
+    top: 1095px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line20:hover {
+    background: rgb(0, 0, 0);
+}
+
+.line21 {
+    position: absolute;
+    top: 1150px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+}
+
+.line21:hover {
+    background: rgb(0, 0, 0);
+}
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+    
+    #premier-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+    
+    #premier-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #premier-text1 {
+        position: absolute;
+        top: 55px;
+        right: 35%;
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #premier-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #table {
+        position: absolute;
+        top: 215px;
+        right: 5%;
+        width: 75%;
+        height: 1220px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+    
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .order {
+        position: absolute;
+        top: 10px;
+        right: 1%;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        width: 35px;
+        height: 30px;
+    }
+    
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 11%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line6 {
+        position: absolute;
+        top: 325px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line6:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line7 {
+        position: absolute;
+        top: 380px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line7:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line8 {
+        position: absolute;
+        top: 435px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line8:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line9 {
+        position: absolute;
+        top: 490px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line9:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line10 {
+        position: absolute;
+        top: 545px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line10:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line11 {
+        position: absolute;
+        top: 600px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line11:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line12 {
+        position: absolute;
+        top: 655px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line12:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line13 {
+        position: absolute;
+        top: 710px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line13:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line14 {
+        position: absolute;
+        top: 765px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line14:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line15 {
+        position: absolute;
+        top: 820px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line15:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line16 {
+        position: absolute;
+        top: 875px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line16:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line17 {
+        position: absolute;
+        top: 930px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line17:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line18 {
+        position: absolute;
+        top: 985px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line18:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line19 {
+        position: absolute;
+        top: 1040px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line19:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line20 {
+        position: absolute;
+        top: 1095px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line20:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line21 {
+        position: absolute;
+        top: 1150px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line21:hover {
+        background: rgb(0, 0, 0);
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+    
+    #premier-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+    
+    #premier-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #premier-text1 {
+        position: absolute;
+        top: 55px;
+        right: 38%;
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #premier-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #table {
+        position: absolute;
+        top: 215px;
+        right: 5%;
+        width: 80%;
+        height: 1220px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+    
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .order {
+        position: absolute;
+        top: 10px;
+        right: 1%;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+    }
+    
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        width: 35px;
+        height: 30px;
+    }
+    
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 11%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+    
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line6 {
+        position: absolute;
+        top: 325px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line6:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line7 {
+        position: absolute;
+        top: 380px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line7:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line8 {
+        position: absolute;
+        top: 435px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line8:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line9 {
+        position: absolute;
+        top: 490px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line9:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line10 {
+        position: absolute;
+        top: 545px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line10:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line11 {
+        position: absolute;
+        top: 600px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line11:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line12 {
+        position: absolute;
+        top: 655px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line12:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line13 {
+        position: absolute;
+        top: 710px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line13:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line14 {
+        position: absolute;
+        top: 765px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line14:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line15 {
+        position: absolute;
+        top: 820px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line15:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line16 {
+        position: absolute;
+        top: 875px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line16:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line17 {
+        position: absolute;
+        top: 930px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line17:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line18 {
+        position: absolute;
+        top: 985px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line18:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line19 {
+        position: absolute;
+        top: 1040px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line19:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line20 {
+        position: absolute;
+        top: 1095px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line20:hover {
+        background: rgb(0, 0, 0);
+    }
+    
+    .line21 {
+        position: absolute;
+        top: 1150px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+    
+    .line21:hover {
+        background: rgb(0, 0, 0);
+    }
+}

@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/premier-legue.css">
+</head>
+<script src="JS/premier-legue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>.
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="IMG/logo3.png" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html"><button type="button"
+                                class="btn btn-outline-light">الصفحة الرئيسية</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="news.html"><button type="button"
+                                class="btn btn-outline-light">الأخبار</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html"><button type="button"
+                                class="btn btn-outline-light">المنتجات</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"><button type="button" class="btn btn-outline-light">معلومات
+                                عنا</button></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn btn-outline-light">الدوريات</button>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="premier-legue.html">الدوري الإنجليزي الممتاز</a></li>
+                            <li><a class="dropdown-item" href="champions-legue.html">دوري أبطال أوروبا</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="البحث" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">بحث</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="middle-top">
+        <img id="middle-top-photo" src="IMG/primier-league-cup.png" alt="">
+    </div>
+
+    <div id="right1">
+        <img id="champions-photo1" src="IMG/Premier-League-Logo-White-png.png">
+        <b id="champions-text1">الدورى الانجليزى الممتاز</b>
+        <a href="premier-legue.html#summary"><input id="button1" type="button" value="الملخص"></a>
+        <input id="button2" type="button" value="ترتيب الدورى" onclick="premier_group()">
+        <input id="button3" type="button" value="مباريات الجوله" onclick="premier_matches()">
+    </div>
+
+    <div id="summary">
+
+        <b id="summary-text">الملخلص</b>
+        <b id="matches-text">اهم مباريات الجوله</b>
+
+        <b id="team1-name">ارسنال</b>
+        <img id="team1-photo" src="IMG/arsenal.png" alt="arsenal photo">
+        <b id="team2-name">مانشستر سيتى </b>
+        <img id="team2-photo" src="IMG/mancity.png" alt="mancity photo">
+        <b id="date1"> 10:00 م </b>
+        <b id="date1-1">8/10/2023</b>
+
+        <b id="team3-name">برايتون</b>
+        <img id="team3-photo" src="IMG/brighton.png" alt="brighton photo">
+        <b id="team4-name">ليفربول </b>
+        <img id="team4-photo" src="IMG/liverpool.png" alt="liverpool photo">
+        <b id="date2"> 04:00 م </b>
+        <b id="date2-1">8/10/2023</b>
+
+        <b id="team5-name">مانشستر يونايتد</b>
+        <img id="team5-photo" src="IMG/united.png" alt="united photo">
+        <b id="team6-name">برينتفورد</b>
+        <img id="team6-photo" src="IMG/brentford.png" alt="brentford photo">
+        <b id="date3"> 05:00 م </b>
+        <b id="date3-1">7/10/2023</b>
+
+    </div>
+
+    <div id="table">
+        <b class="table-name">ترتيب اول اربع فرق</b>
+
+        <div class="line1">
+            <b class="play">لعب</b>
+            <b class="plusminus">+/-</b>
+            <b class="diff">فارق</b>
+            <b class="points">نقاط</b>
+            <b class="win">فوز</b>
+            <b class="all">تعادل</b>
+            <b class="lose">خساره</b>
+        </div>
+
+        <div class="line2">
+            <b class="order">1</b>
+            <img class="team7-photo" src="IMG/mancity.png" alt="mancity photo">
+            <b class="team7-name">مانشستر سيتي</b>
+            <b class="play">7</b>
+            <b class="plusminus">17:5</b>
+            <b class="diff">12</b>
+            <b class="points">18</b>
+            <b class="win">6</b>
+            <b class="all">0</b>
+            <b class="lose">1</b>
+        </div>
+
+        <div class="line3">
+            <b class="order">2</b>
+            <img class="team7-photo" src="IMG/tottenham.png" alt="tottenham photo">
+            <b class="team7-name">توتنهام هوتسبر</b>
+            <b class="play">7</b>
+            <b class="plusminus">17:8</b>
+            <b class="diff">9</b>
+            <b class="points">17</b>
+            <b class="win">5</b>
+            <b class="all">2</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line4">
+            <b class="order">3</b>
+            <img class="team7-photo" src="IMG/arsenal.png" alt="arsenal photo">
+            <b class="team7-name">ارسنال</b>
+            <b class="play">7</b>
+            <b class="plusminus">15:6</b>
+            <b class="diff">9</b>
+            <b class="points">17</b>
+            <b class="win">5</b>
+            <b class="all">2</b>
+            <b class="lose">0</b>
+        </div>
+
+        <div class="line5">
+            <b class="order">4</b>
+            <img class="team7-photo" src="IMG/liverpool.png" alt="liverpool photo">
+            <b class="team7-name">ليفربول</b>
+            <b class="play">7</b>
+            <b class="plusminus">16:7</b>
+            <b class="diff">9</b>
+            <b class="points">16</b>
+            <b class="win">5</b>
+            <b class="all">1</b>
+            <b class="lose">1</b>
+        </div>
+    </div>
+
+</body>
+
+</html>

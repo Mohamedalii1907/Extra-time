@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/champions-legue-matches.css">
+</head>
+<script src="JS/champions-legue-matches.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="IMG/logo3.png" alt="" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html"><button type="button"
+                                class="btn btn-outline-light">الصفحة الرئيسية</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="news.html"><button type="button"
+                                class="btn btn-outline-light">الأخبار</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html"><button type="button"
+                                class="btn btn-outline-light">المنتجات</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html"><button type="button" class="btn btn-outline-light">معلومات
+                                عنا</button></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn btn-outline-light">الدوريات</button>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="premier-legue.html">الدوري الإنجليزي الممتاز</a></li>
+                            <li><a class="dropdown-item" href="champions-legue.html">دوري أبطال أوروبا</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="البحث" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">بحث</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="right-top">
+        <img id="champions-photo1" onclick="champions1()" src="IMG/Champions-legue2.png" alt="Champions-legue">
+        <b id="champions-text1" onclick="champions2()">دوري ابطال اوروبا</b>
+    </div>
+
+    <div id="match1">
+        <b class="team1-name">يونيون برلين</b>
+        <img class="team1-photo" src="IMG/UnionBerlin.png" alt="UnionBerlin">
+        <b class="date">7:45 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/braga.png" alt="braga">
+        <b class="team2-name">سبورتينج براغا</b>
+        <b class="stadium">الملعب : أوليمبياستاديون برلين</b>
+        <b class="channel">بي ان سبورتس 1</b>
+    </div>
+
+    <div id="match2">
+        <b class="team1-name"> ريدبل سالزبورغ</b>
+        <img class="team1-photo" src="IMG/salzburg.png" alt="salzburg">
+        <b class="date">7:45 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/sosiedad.png" alt="sosiedad">
+        <b class="team2-name">ريال سوسيداد</b>
+        <b class="stadium">الملعب : رد بول أرينا</b>
+        <b class="channel">بي ان سبورتس 2</b>
+    </div>
+
+    <div id="match3">
+        <b class="team1-name">نابولي</b>
+        <img class="team1-photo" src="IMG/napoli.png" alt="napoli">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/madrid.png" alt="madrid">
+        <b class="team2-name">ريال مدريد</b>
+        <b class="stadium">الملعب : دييغو أرماندو مارادونا</b>
+        <b class="channel">بي ان سبورتس 1</b>
+    </div>
+
+    <div id="match4">
+        <b class="team1-name"> انتر ميلان</b>
+        <img class="team1-photo" src="IMG/inter.png" alt="inter">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/benfica.png" alt="benfica">
+        <b class="team2-name">بنفيكا</b>
+        <b class="stadium">الملعب : جوزيبي مياتزا </b>
+        <b class="channel">بي ان سبورتس 2</b>
+    </div>
+
+    <div id="match5">
+        <b class="team1-name">مانشستر يونايتد</b>
+        <img class="team1-photo" src="IMG/united.png" alt="united">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/Galatasaray .png" alt="Galatasaray">
+        <b class="team2-name"> جالاتا سراي</b>
+        <b class="stadium">الملعب : أولد ترافورد</b>
+        <b class="channel">بي ان سبورتس 3</b>
+    </div>
+
+    <div id="match6">
+        <b class="team1-name">لانس</b>
+        <img class="team1-photo" src="IMG/lens.png" alt="lens">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/arsenal.png" alt="arsenal">
+        <b class="team2-name">ارسنال</b>
+        <b class="stadium">الملعب : بوليرت ديليليس </b>
+        <b class="channel">بي ان سبورتس 4</b>
+    </div>
+
+    <div id="match7">
+        <b class="team1-name">ايندهوفن</b>
+        <img class="team1-photo" src="IMG/psv.png" alt="psv">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/sevilla.png" alt="sevilla">
+        <b class="team2-name">اشبيليه</b>
+        <b class="stadium">الملعب : فيليبس</b>
+        <b class="channel">بي ان سبورتس 5</b>
+    </div>
+
+    <div id="match8">
+        <b class="team1-name">كوبنهاجن</b>
+        <img class="team1-photo" src="IMG/Copenhagen .png" alt="lens">
+        <b class="date">10:00 م</b>
+        <b class="date2">3/10/2023</b>
+        <img class="team2-photo" src="IMG/bayern.png" alt="arsenal">
+        <b class="team2-name">بايرن ميونخ</b>
+        <b class="stadium">الملعب : باركين </b>
+        <b class="channel">بي ان سبورتس 6</b>
+    </div>
+
+    <div id="match9">
+        <b class="team1-name">اتليتكو مدريد</b>
+        <img class="team1-photo" src="IMG/atliteco.png" alt="atliteco">
+        <b class="date">07:45 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/feyenoord.png" alt="feyenoord">
+        <b class="team2-name">فاينورد</b>
+        <b class="stadium">الملعب : ميتروبوليتانو</b>
+        <b class="channel">بي ان سبورتس 1</b>
+    </div>
+
+    <div id="match10">
+        <b class="team1-name">رويال انتويرب</b>
+        <img class="team1-photo" src="IMG/Antwerp.png" alt="Antwerp">
+        <b class="date">07:45 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/shakhtar.png" alt="shakhtar">
+        <b class="team2-name">شاختار</b>
+        <b class="stadium">الملعب : بوزيلستاديون</b>
+        <b class="channel">بي ان سبورتس 2</b>
+    </div>
+
+    <div id="match11">
+        <b class="team1-name">لايبزيج</b>
+        <img class="team1-photo" src="IMG/Leipzig .png" alt="Leipzig">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/mancity.png" alt="mancity">
+        <b class="team2-name">مانشستر سيتي</b>
+        <b class="stadium">الملعب : رد بول أرينا</b>
+        <b class="channel">بي ان سبورتس 1</b>
+    </div>
+
+    <div id="match12">
+        <b class="team1-name">النجم الاحمر</b>
+        <img class="team1-photo" src="IMG/RedStar.png" alt="RedStar">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/youngboys.png" alt="youngboys">
+        <b class="team2-name">يونغ بويز</b>
+        <b class="stadium">الملعب : راجكو ميتيتش</b>
+        <b class="channel">بي ان سبورتس 2</b>
+    </div>
+
+    <div id="match13">
+        <b class="team1-name">سيلتيك</b>
+        <img class="team1-photo" src="IMG/celtic.png" alt="celtic">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/lazio.png" alt="lazio">
+        <b class="team2-name">لاتسيو</b>
+        <b class="stadium">الملعب : سيلتيك بارك </b>
+        <b class="channel">بي ان سبورتس 3</b>
+    </div>
+
+    <div id="match14">
+        <b class="team1-name">بورتو</b>
+        <img class="team1-photo" src="IMG/porto.png" alt="porto">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/barcelona.png" alt="barcelona">
+        <b class="team2-name">برشلونه</b>
+        <b class="stadium">الملعب : الدراجاو </b>
+        <b class="channel">بي ان سبورتس 4</b>
+    </div>
+
+    <div id="match15">
+        <b class="team1-name">بروسيا دورتموند</b>
+        <img class="team1-photo" src="IMG/dortmund.png" alt="dortmund">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/milan.png" alt="milan">
+        <b class="team2-name">ميلان</b>
+        <b class="stadium">الملعب : سيغنال إيدونا بارك </b>
+        <b class="channel">بي ان سبورتس 5</b>
+    </div>
+
+    <div id="match16">
+        <b class="team1-name">نيوكاسل يونايتد</b>
+        <img class="team1-photo" src="IMG/newcastleunited.png" alt="newcastleunited">
+        <b class="date">10:00 م</b>
+        <b class="date2">4/10/2023</b>
+        <img class="team2-photo" src="IMG/paris.png" alt="paris">
+        <b class="team2-name">باريس </b>
+        <b class="stadium">الملعب : سانت جيمس بارك </b>
+        <b class="channel">بي ان سبورتس 6</b>
+    </div>
+
+    <div class="bottom-right">
+        <b id="advertise1">اعلان</b>
+        <a href="https://www.nike.com/eg/"><img id="advertise2" src="IMG/nike1.png" alt="advertise nike"></a>
+    </div>
+
+</body>
+
+</html>

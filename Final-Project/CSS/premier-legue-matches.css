@@ -1,0 +1,875 @@
+/*PC*/
+@media all and (min-width:1500px){
+body {
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+#right-top {
+    position: absolute;
+    top: 90px;
+    width: 30%;
+    right: 5%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#premier-photo1 {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+#premier-photo1:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#premier-text1 {
+    position: absolute;
+    top: 55px;
+    right: 26%;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#premier-text1:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#match1 {
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match1:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match2 {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match2:hover {
+    background: rgb(36, 35, 35);
+}
+
+.team1-name {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.team1-name:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+.team1-photo {
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    width: 55px;
+    height: 50px;
+}
+
+.team1-photo:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.date {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.date2{
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.date:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.date2:hover{
+    transform: scale(1.1);
+    filter: brightness(85%);
+    cursor: pointer;
+}
+.team2-photo {
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    width: 55px;
+    height: 50px;
+}
+
+.team2-photo:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.team2-name {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.team2-name:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+.stadium {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+.channel{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+#match3{
+    position: absolute;
+    top: 360px;
+    right: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match3:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match4 {
+    position: absolute;
+    top: 360px;
+    left: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match4:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match5{
+    position: absolute;
+    top: 520px;
+    right: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match5:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match6 {
+    position: absolute;
+    top: 520px;
+    left: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match6:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match7{
+    position: absolute;
+    top: 680px;
+    right: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match7:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match8 {
+    position: absolute;
+    top: 680px;
+    left: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match8:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match9{
+    position: absolute;
+    top: 840px;
+    right: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match9:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match10 {
+    position: absolute;
+    top: 840px;
+    left: 5%;
+    width: 40%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match10:hover {
+    background: rgb(36, 35, 35);
+}
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px){
+body {
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+#right-top {
+    position: absolute;
+    top: 90px;
+    width: 30%;
+    right: 5%;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#premier-photo1 {
+    position: absolute;
+    top: 10px;
+    right: 3%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+#premier-photo1:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#premier-text1 {
+    position: absolute;
+    top: 55px;
+    right: 34%;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#premier-text1:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+#match1 {
+    position: absolute;
+    top: 200px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match1:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match2 {
+    position: absolute;
+    top: 360px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match2:hover {
+    background: rgb(36, 35, 35);
+}
+
+.team1-name {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.team1-name:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+.team1-photo {
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    width: 55px;
+    height: 50px;
+}
+
+.team1-photo:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.date {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.date2{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.date:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.date2:hover{
+    transform: scale(1.1);
+    filter: brightness(85%);
+    cursor: pointer;
+}
+.team2-photo {
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    width: 55px;
+    height: 50px;
+}
+
+.team2-photo:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+.team2-name {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.team2-name:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+.stadium {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+.channel{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+#match3{
+    position: absolute;
+    top: 520px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match3:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match4 {
+    position: absolute;
+    top: 680px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match4:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match5{
+    position: absolute;
+    top: 840px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match5:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match6 {
+    position: absolute;
+    top: 1000px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match6:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match7{
+    position: absolute;
+    top: 1160px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match7:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match8 {
+    position: absolute;
+    top: 1320px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match8:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match9{
+    position: absolute;
+    top: 1480px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match9:hover {
+    background: rgb(36, 35, 35);
+}
+
+#match10 {
+    position: absolute;
+    top: 1640px;
+    right: 5%;
+    width: 60%;
+    height: 140px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+#match10:hover {
+    background: rgb(36, 35, 35);
+}
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+    
+    #premier-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+    
+    #premier-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #premier-text1 {
+        position: absolute;
+        top: 55px;
+        right: 37%;
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    #premier-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    #match1 {
+        position: absolute;
+        top: 200px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match1:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match2 {
+        position: absolute;
+        top: 360px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match2:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    .team1-name {
+        position: absolute;
+        top: 25%;
+        right: 2%;
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    .team1-name:hover {
+        transform: scale(1.1);
+        filter: brightness(85%);
+    }
+    
+    .team1-photo {
+        position: absolute;
+        top: 22%;
+        right: 23%;
+        width: 55px;
+        height: 50px;
+    }
+    
+    .team1-photo:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    .date {
+        position: absolute;
+        top: 30%;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .date2{
+        position: absolute;
+        top: 45%;
+        left: 44%;
+        color: white;
+        font-size: large;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .date:hover {
+        transform: scale(1.1);
+        filter: brightness(85%);
+        cursor: pointer;
+    }
+    
+    .date2:hover{
+        transform: scale(1.1);
+        filter: brightness(85%);
+        cursor: pointer;
+    }
+    .team2-photo {
+        position: absolute;
+        top: 20%;
+        left: 26%;
+        width: 55px;
+        height: 50px;
+    }
+    
+    .team2-photo:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+    
+    .team2-name {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    .team2-name:hover {
+        transform: scale(1.1);
+        filter: brightness(85%);
+    }
+    
+    .stadium {
+        position: absolute;
+        bottom: 5%;
+        left: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+    
+    .channel{
+        position: absolute;
+        bottom: 5%;
+        right: 2%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+    }
+    
+    #match3{
+        position: absolute;
+        top: 520px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match3:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match4 {
+        position: absolute;
+        top: 680px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match4:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match5{
+        position: absolute;
+        top: 840px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match5:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match6 {
+        position: absolute;
+        top: 1000px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match6:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match7{
+        position: absolute;
+        top: 1160px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match7:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match8 {
+        position: absolute;
+        top: 1320px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match8:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match9{
+        position: absolute;
+        top: 1480px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match9:hover {
+        background: rgb(36, 35, 35);
+    }
+    
+    #match10 {
+        position: absolute;
+        top: 1640px;
+        right: 15%;
+        width: 70%;
+        height: 140px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    #match10:hover {
+        background: rgb(36, 35, 35);
+    }
+}

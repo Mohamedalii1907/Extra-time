@@ -1,0 +1,843 @@
+/*PC*/
+@media all and (min-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 5px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    #champions-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 55px;
+        right: 25%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    #champions-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #table1 {
+        position: absolute;
+        top: 200px;
+        right: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 200px;
+        left: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table3 {
+        position: absolute;
+        top: 570px;
+        right: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table4 {
+        position: absolute;
+        top: 570px;
+        left: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table5 {
+        position: absolute;
+        top: 940px;
+        right: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table6 {
+        position: absolute;
+        top: 940px;
+        left: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table7 {
+        position: absolute;
+        top: 1310px;
+        right: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table8 {
+        position: absolute;
+        top: 1310px;
+        left: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 5px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    #champions-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 55px;
+        right: 35%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    #champions-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #table1 {
+        position: absolute;
+        top: 200px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 570px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table3 {
+        position: absolute;
+        top: 570px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table4 {
+        position: absolute;
+        top: 940px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table5 {
+        position: absolute;
+        top: 1310px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table6 {
+        position: absolute;
+        top: 1680px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table7 {
+        position: absolute;
+        top: 2050px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table8 {
+        position: absolute;
+        top: 2420px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #right-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 5%;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 5px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+        cursor: pointer;
+    }
+
+    #champions-photo1:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 55px;
+        right: 35%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    #champions-text1:hover {
+        text-decoration: underline;
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #table1 {
+        position: absolute;
+        top: 200px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 570px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table3 {
+        position: absolute;
+        top: 570px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table4 {
+        position: absolute;
+        top: 940px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table5 {
+        position: absolute;
+        top: 1310px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table6 {
+        position: absolute;
+        top: 1680px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table7 {
+        position: absolute;
+        top: 2050px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #table8 {
+        position: absolute;
+        top: 2420px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+}

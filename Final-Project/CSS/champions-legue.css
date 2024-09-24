@@ -1,0 +1,1320 @@
+/*PC*/
+@media all and (min-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #middle-top {
+        position: absolute;
+        top: 90px;
+        width: 30%;
+        right: 35%;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    #middle-top-photo {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #middle-top-photo:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #right1 {
+        position: absolute;
+        top: 510px;
+        right: 5%;
+        width: 90%;
+        height: 200px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 110px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #button1 {
+        position: absolute;
+        top: 150px;
+        right: 3%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button1:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button2 {
+        position: absolute;
+        top: 150px;
+        right: 10%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button2:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button3 {
+        position: absolute;
+        top: 150px;
+        right: 19%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button3:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #summary {
+        position: absolute;
+        top: 750px;
+        right: 5%;
+        width: 90%;
+        height: 230px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #summary-text {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #matches-text {
+        position: absolute;
+        top: 40px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 350;
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 80px;
+        right: 24.5%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 77px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 82px;
+        left: 50%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 80px;
+        left: 31%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 77px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 130px;
+        right: 24.5%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 127px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 132px;
+        left: 50%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 130px;
+        left: 31%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 127px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 182px;
+        left: 50%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 180px;
+        right: 21.8%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 177px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 180px;
+        left: 31%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 177px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #table1 {
+        position: absolute;
+        top: 1020px;
+        right: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 1020px;
+        left: 5%;
+        width: 40%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #middle-top {
+        position: absolute;
+        top: 90px;
+        width: 45%;
+        right: 27.5%;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    #middle-top-photo {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #middle-top-photo:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #right1 {
+        position: absolute;
+        top: 510px;
+        right: 5%;
+        width: 90%;
+        height: 200px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 110px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #button1 {
+        position: absolute;
+        top: 150px;
+        right: 3%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button1:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button2 {
+        position: absolute;
+        top: 150px;
+        right: 12%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button2:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button3 {
+        position: absolute;
+        top: 150px;
+        right: 23.5%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button3:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #summary {
+        position: absolute;
+        top: 750px;
+        right: 5%;
+        width: 90%;
+        height: 230px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #summary-text {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #matches-text {
+        position: absolute;
+        top: 40px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 350;
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 80px;
+        right: 21.1%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 77px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 82px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 80px;
+        left: 29%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 77px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 130px;
+        right: 22.8%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 127px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 132px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 130px;
+        left: 29%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 127px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 182px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 180px;
+        right: 18.3%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 177px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 180px;
+        left: 29.7%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 177px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #table1 {
+        position: absolute;
+        top: 1020px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 1410px;
+        right: 5%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px) {
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    #middle-top {
+        position: absolute;
+        top: 90px;
+        width: 50%;
+        right: 25%;
+        height: 400px;
+        border-radius: 20px;
+    }
+
+    #middle-top-photo {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #middle-top-photo:hover {
+        transform: scale(1.1);
+        filter: brightness(80%);
+    }
+
+    #right1 {
+        position: absolute;
+        top: 510px;
+        right: 20%;
+        width: 60%;
+        height: 200px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #champions-photo1 {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        width: 90px;
+        height: 90px;
+    }
+
+    #champions-text1 {
+        position: absolute;
+        top: 110px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #button1 {
+        position: absolute;
+        top: 150px;
+        right: 3%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button1:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button2 {
+        position: absolute;
+        top: 150px;
+        right: 18%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button2:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #button3 {
+        position: absolute;
+        top: 150px;
+        right: 36.5%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+
+    #button3:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+
+    #summary {
+        position: absolute;
+        top: 750px;
+        right: 5%;
+        width: 90%;
+        height: 230px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    #summary-text {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #matches-text {
+        position: absolute;
+        top: 40px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 350;
+    }
+
+    #team1-name {
+        position: absolute;
+        top: 80px;
+        right: 19.8%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team1-photo {
+        position: absolute;
+        top: 77px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date1 {
+        position: absolute;
+        top: 82px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team2-name {
+        position: absolute;
+        top: 80px;
+        left: 28%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team2-photo {
+        position: absolute;
+        top: 77px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team3-name {
+        position: absolute;
+        top: 130px;
+        right: 21.8%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team3-photo {
+        position: absolute;
+        top: 127px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date2 {
+        position: absolute;
+        top: 132px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team4-name {
+        position: absolute;
+        top: 130px;
+        left: 28%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team4-photo {
+        position: absolute;
+        top: 127px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #date3 {
+        position: absolute;
+        top: 182px;
+        left: 48%;
+        color: white;
+        font-size: large;
+        font-weight: 300;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #team5-name {
+        position: absolute;
+        top: 180px;
+        right: 15.5%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team5-photo {
+        position: absolute;
+        top: 177px;
+        right: 31%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #team6-name {
+        position: absolute;
+        top: 180px;
+        left: 28.9%;
+        color: white;
+        font-size: large;
+        font-weight: 450;
+    }
+
+    #team6-photo {
+        position: absolute;
+        top: 177px;
+        left: 35%;
+        width: 35px;
+        height: 30px;
+    }
+
+    #table1 {
+        position: absolute;
+        top: 1020px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+
+    .table-name {
+        position: absolute;
+        top: 10px;
+        right: 3%;
+        color: white;
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .line1 {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line1:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .play {
+        position: absolute;
+        top: 10px;
+        right: 30%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .plusminus {
+        position: absolute;
+        top: 10px;
+        right: 40%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .diff {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .points {
+        position: absolute;
+        top: 10px;
+        right: 60%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .win {
+        position: absolute;
+        top: 10px;
+        right: 70%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .all {
+        position: absolute;
+        top: 10px;
+        right: 80%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .lose {
+        position: absolute;
+        top: 10px;
+        right: 90%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 105px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line2:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .team7-photo {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        width: 35px;
+        height: 30px;
+    }
+
+    .team7-name {
+        position: absolute;
+        top: 10px;
+        right: 9%;
+        color: white;
+        font-size: medium;
+        font-weight: 300;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line3:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line4 {
+        position: absolute;
+        top: 215px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line4:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    .line5 {
+        position: absolute;
+        top: 270px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: none;
+    }
+
+    .line5:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #table2 {
+        position: absolute;
+        top: 1410px;
+        right: 20%;
+        width: 60%;
+        height: 350px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+}

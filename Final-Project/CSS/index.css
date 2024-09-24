@@ -1,0 +1,202 @@
+    /*PC*/
+    @media all and (min-width:1500px) {
+
+        .section {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .index1 {
+            position: absolute;
+            top: 340px;
+            left: 70%;
+            font-size: 50;
+            color: white;
+            font-weight: bold;
+        }
+
+        .index2 {
+            position: absolute;
+            top: 360px;
+            left: 61%;
+            height: 50px;
+        }
+
+        .index3 {
+            position: absolute;
+            top: 415px;
+            left: 62%;
+            font-size: 30;
+            color: white;
+            font-weight: lighter;
+        }
+
+        #button1 {
+            position: absolute;
+            top: 470px;
+            left: 76%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: none;
+        }
+
+        #button1:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+
+        #button2 {
+            position: absolute;
+            top: 470px;
+            left: 67%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: none;
+        }
+
+        #button2:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+    }
+
+    /*laptob*/
+    @media all and (min-width:1000px) and (max-width:1500px) {
+        .section {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        .index1 {
+            position: absolute;
+            top: 345px;
+            left: 73%;
+            font-size: 45;
+            color: white;
+            font-weight: bold;
+        }
+
+        .index2 {
+            position: absolute;
+            top: 360px;
+            left: 61%;
+            height: 50px;
+        }
+
+        .index3 {
+            position: absolute;
+            top: 415px;
+            left: 62%;
+            font-size: 30;
+            color: white;
+            font-weight: lighter;
+        }
+
+        #button1 {
+            position: absolute;
+            top: 470px;
+            left: 78%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: none;
+        }
+
+        #button1:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+
+        #button2 {
+            position: absolute;
+            top: 470px;
+            left: 62%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: none;
+        }
+
+        #button2:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+    }
+
+    /*tablet*/
+    @media all  and  (max-width:1000px){
+        
+        .section {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .index1 {
+            position: absolute;
+            top: 250px;
+            left: 74%;
+            font-size: 36;
+            color: white;
+            font-weight: bold;
+            background: rgb(29, 29, 29);
+        }
+
+        .index2 {
+            position: absolute;
+            top: 260px;
+            left: 61%;
+            height: 50px;
+        }
+
+        .index3 {
+            position: absolute;
+            top: 315px;
+            left: 62%;
+            font-size: 30;
+            color: white;
+            font-weight: lighter;
+            background: rgb(29, 29, 29);
+        }
+
+        #button1 {
+            position: absolute;
+            top: 370px;
+            left: 78%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: rgb(29, 29, 29);
+        }
+
+        #button1:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+
+        #button2 {
+            position: absolute;
+            top: 370px;
+            left: 62%;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-size: larger;
+            color: white;
+            background: rgb(29, 29, 29);
+        }
+
+        #button2:hover {
+            color: black;
+            background: rgb(255, 255, 255);
+        }
+    }

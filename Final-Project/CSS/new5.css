@@ -1,0 +1,171 @@
+/*PC*/
+@media all and (min-width:1500px){
+body {
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+#photo-container {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    width: 50%;
+    height: 350;
+}
+
+#new-photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#text-container1 {
+    position: absolute;
+    right: 5%;
+    top: 470px;
+    width: 70%;
+    height: 180px;
+    border-radius: 20px;
+    background: rgb(29, 29, 29);
+}
+
+.text {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    color: white;
+
+}
+
+#button {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background: none;
+}
+
+#button:hover {
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    #photo-container {
+        position: absolute;
+        top: 100px;
+        right: 5%;
+        width: 50%;
+        height: 350;
+    }
+    
+    #new-photo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    #text-container1 {
+        position: absolute;
+        right: 5%;
+        top: 470px;
+        width: 70%;
+        height: 230px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    .text {
+        position: absolute;
+        right: 1%;
+        top: 2%;
+        color: white;
+    
+    }
+    
+    #button {
+        position: absolute;
+        top: 720px;
+        left: 5%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+    
+    #button:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+}
+
+/*tablet*/
+@media all and (max-width:1000px){
+    body {
+        background: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    #photo-container {
+        position: absolute;
+        top: 100px;
+        right: 20%;
+        width: 60%;
+        height: 350;
+    }
+    
+    #new-photo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    #text-container1 {
+        position: absolute;
+        right: 15%;
+        top: 470px;
+        width: 70%;
+        height: 260px;
+        border-radius: 20px;
+        background: rgb(29, 29, 29);
+    }
+    
+    .text {
+        position: absolute;
+        right: 1%;
+        top: 2%;
+        color: white;
+    
+    }
+    
+    #button {
+        position: absolute;
+        top: 750px;
+        left: 5%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+    
+    #button:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+}

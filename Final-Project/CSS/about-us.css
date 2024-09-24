@@ -1,0 +1,569 @@
+/*PC*/
+@media all and (min-width:1500px){
+body {
+    background: black;
+    position: relative;
+}
+
+#top-right {
+    position: absolute;
+    right: 35%;
+    top: 100px;
+    height: 250px;
+    width: 30%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#middle-right {
+    position: absolute;
+    top: 380px;
+    right: 25%;
+    width: 50%;
+    height: 150px;
+    background: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+#text1 {
+    position: absolute;
+    top: 10px;
+    right: 2%;
+    color: white;
+    font-size: large;
+}
+
+#text2{
+    position: absolute;
+    top: 40px;
+    right: 2%;
+    color: white;
+    font-size: large;
+}
+
+#text3{
+    position: absolute;
+    top: 70px;
+    right: 2%;
+    color: white;
+    font-size: large;
+}
+
+#text4{
+    position: absolute;
+    top: 100px;
+    right: 2%;
+    color: white;
+    font-size: large;
+}
+
+#bottom-right {
+    position: absolute;
+    top: 560px;
+    right: 25%;
+    width: 50%;
+    height: 150px;
+    background: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+#text5{
+    position: absolute;
+    top: 10px;
+    right: 4%;
+    color: white;
+    font-size: x-large;
+}
+
+#text:hover {
+    transform: scale(1.1);
+    filter: brightness(85%);
+}
+
+#facebook {
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    cursor: pointer;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+}
+
+#twitter {
+    position: absolute;
+    top: 70px;
+    left: 35%;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    transform: scale(1.1);
+}
+
+#instagram {
+    position: absolute;
+    top: 70px;
+    left: 55%;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    transform: scale(1.1);
+}
+
+#threads {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    right: 15%;
+    cursor: pointer;
+}
+
+#threads:hover {
+    transform: scale(1.1);
+}
+
+#last-right{
+    position: absolute;
+    top: 750px;
+    right: 25%;
+    width: 50%;
+    height: 200px;
+    background: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+#text6{
+    position: absolute;
+    top: 10px;
+    right: 4%;
+    color: white;
+    font-size: large;
+}
+
+#opinion{
+    position: absolute;
+    top: 50px;
+    right: 4%;
+    width: 80%;
+    height: 80px;
+    color: black;
+    font-size: large;
+}
+
+#send{
+    position: absolute;
+    top: 150px;
+    left: 3%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background: none;
+}
+
+#send:hover {
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+#message{
+    position: absolute;
+    top: 650px;
+    right: 40%;
+    width: 25%;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+}
+
+#text7{
+    position: absolute;
+    top: 30px;
+    right: 15%;
+    font-size: large;
+}
+}
+
+/*laptob*/
+@media all and (min-width:1000px) and (max-width:1500px){
+    body {
+        background: black;
+        position: relative;
+    }
+    
+    #top-right {
+        position: absolute;
+        right: 30%;
+        top: 100px;
+        height: 250px;
+        width: 40%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    #middle-right {
+        position: absolute;
+        top: 380px;
+        right: 15%;
+        width: 70%;
+        height: 150px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text1 {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text2{
+        position: absolute;
+        top: 40px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text3{
+        position: absolute;
+        top: 70px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text4{
+        position: absolute;
+        top: 100px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #bottom-right {
+        position: absolute;
+        top: 560px;
+        right: 15%;
+        width: 70%;
+        height: 150px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text5{
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        color: white;
+        font-size: x-large;
+    }
+    
+    #text:hover {
+        transform: scale(1.1);
+        filter: brightness(85%);
+    }
+    
+    #facebook {
+        position: absolute;
+        top: 70px;
+        left: 15%;
+        cursor: pointer;
+    }
+    
+    #facebook:hover {
+        transform: scale(1.1);
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 70px;
+        left: 35%;
+        cursor: pointer;
+    }
+    
+    #twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    #instagram {
+        position: absolute;
+        top: 70px;
+        left: 55%;
+        cursor: pointer;
+    }
+    
+    #twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    #threads {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 70px;
+        right: 15%;
+        cursor: pointer;
+    }
+    
+    #threads:hover {
+        transform: scale(1.1);
+    }
+    
+    #last-right{
+        position: absolute;
+        top: 750px;
+        right: 15%;
+        width: 70%;
+        height: 200px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text6{
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        color: white;
+        font-size: large;
+    }
+    
+    #opinion{
+        position: absolute;
+        top: 50px;
+        right: 4%;
+        width: 80%;
+        height: 80px;
+        color: black;
+        font-size: large;
+    }
+    
+    #send{
+        position: absolute;
+        top: 150px;
+        left: 3%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+    
+    #send:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+    
+    #message{
+        position: absolute;
+        top: 650px;
+        right: 40%;
+        width: 25%;
+        height: 100px;
+        background: white;
+        border-radius: 20px;
+    }
+    
+    #text7{
+        position: absolute;
+        top: 30px;
+        right: 15%;
+        font-size: large;
+    }
+}
+
+/*tablet*/
+@media all  and  (max-width:1000px){
+    body {
+        background: black;
+        position: relative;
+    }
+    
+    #top-right {
+        position: absolute;
+        right: 25%;
+        top: 100px;
+        height: 250px;
+        width: 50%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    #middle-right {
+        position: absolute;
+        top: 380px;
+        right: 10%;
+        width: 80%;
+        height: 150px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text1 {
+        position: absolute;
+        top: 10px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text2{
+        position: absolute;
+        top: 40px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text3{
+        position: absolute;
+        top: 70px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #text4{
+        position: absolute;
+        top: 100px;
+        right: 2%;
+        color: white;
+        font-size: large;
+    }
+    
+    #bottom-right {
+        position: absolute;
+        top: 560px;
+        right: 10%;
+        width: 80%;
+        height: 150px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text5{
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        color: white;
+        font-size: x-large;
+    }
+    
+    #text:hover {
+        transform: scale(1.1);
+        filter: brightness(85%);
+    }
+    
+    #facebook {
+        position: absolute;
+        top: 70px;
+        left: 15%;
+        cursor: pointer;
+    }
+    
+    #facebook:hover {
+        transform: scale(1.1);
+    }
+    
+    #twitter {
+        position: absolute;
+        top: 70px;
+        left: 35%;
+        cursor: pointer;
+    }
+    
+    #twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    #instagram {
+        position: absolute;
+        top: 70px;
+        left: 55%;
+        cursor: pointer;
+    }
+    
+    #twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    #threads {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 70px;
+        right: 15%;
+        cursor: pointer;
+    }
+    
+    #threads:hover {
+        transform: scale(1.1);
+    }
+    
+    #last-right{
+        position: absolute;
+        top: 750px;
+        right: 10%;
+        width: 80%;
+        height: 200px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    #text6{
+        position: absolute;
+        top: 10px;
+        right: 4%;
+        color: white;
+        font-size: large;
+    }
+    
+    #opinion{
+        position: absolute;
+        top: 50px;
+        right: 4%;
+        width: 80%;
+        height: 80px;
+        color: black;
+        font-size: large;
+    }
+    
+    #send{
+        position: absolute;
+        top: 150px;
+        left: 3%;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: large;
+        color: white;
+        background: none;
+    }
+    
+    #send:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+    }
+    
+    #message{
+        position: absolute;
+        top: 650px;
+        right: 40%;
+        width: 25%;
+        height: 100px;
+        background: white;
+        border-radius: 20px;
+    }
+    
+    #text7{
+        position: absolute;
+        top: 30px;
+        right: 15%;
+        font-size: large;
+    }
+}
